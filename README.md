@@ -19,5 +19,5 @@ Ejemplo de historia de usuario convertida en propósito: Queremos que niñas y a
 
 ## Diseño visual
 https://www.figma.com/design/LWoEosZslZqDKSCyaaWkrl/Sanrio?node-id=0-1&t=tnCxAf3VmaYTR0Cx-1
-![Diseño visual de la landing page] (Sanrio.png)
+![Diseño visual de la landing page](Sanrio.png)
 
