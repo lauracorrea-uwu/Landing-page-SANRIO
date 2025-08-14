@@ -3,11 +3,11 @@ Aplicación de HTML, CSS y JavaScript para la estética de la marca SANRIO.
 El objetivo de este sitio web es presentar los nuevos productos de la línea SANRIO, específicamente todo lo que agrupa regalos, accesorios, cosas para el hogar, útiles escolares, entre otros.
 ## Colorimetría de la marca
 Los colores de la marca se basan principalmente de colores vibrantes y a la vez amigables, en este caso serían:
- - #64a2eeff
- - #f86244ff
- - #cffa7eff
- - #f776bdff
- - #da81f0ff
+ - #64a2eeff-azul
+ - #f86244ff-rojo
+ - #cffa7eff-verde
+ - #f776bdff-rosa
+ - #da81f0ff-morado
  ## Tipografía
  Esta landing page usa la tipografía Little Miss Cursive, diseñada por Kiddie Fonts.
 ## Propósito (Metodología de historia de usuario)

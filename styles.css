@@ -1,15 +1,54 @@
-h1{
-font-size: 80px;
-background-color: #64a2eeff;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+:root{
+    /*Colores de la marca Sanrio*/
+    --azul: #64a2eeff;
+    --rojo: #f86244ff;
+    --verde:#cffa7eff;
+    --rosa: #f776bdff;
+    --morado:#da81f0ff;
+}
+
+.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabecera{
 color: whitesmoke;
-text-align: center;
+border-color: var(--azul);
+}
+
+img{
+    margin-left: 30px;
+    width: 115px;
+}
+
+h1{
+ 
+font-size: 80px;
+color: var(--azul);
 margin-top: 5px;
 border-radius: 30px;
+display: inline-block;
+margin-left: 40%;
 }
+
 body{
-    font-family:cursive;
+   font-family:cursive;
    background-color: whitesmoke;
 }
-.caja2{
-    
+
+.cuerpo{
+width: 100;
+lenght: 35px;
+background-color: var(--azul);
+border-radius: 25px;
+margin-top: 35px;
 }
+p{
+    font-size: 20px;
+    lenght: 30px;
+    color: whitesmoke;
+}
+
