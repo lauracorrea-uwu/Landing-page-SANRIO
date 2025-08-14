@@ -8,11 +8,6 @@
     --morado:#da81f0ff;
 }
 
-.rubik-bubbles-regular {
-  font-family: "Rubik Bubbles", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .cabecera{
 color: whitesmoke;
@@ -25,13 +20,15 @@ img{
 }
 
 h1{
- 
-font-size: 80px;
-color: var(--azul);
-margin-top: 5px;
-border-radius: 30px;
-display: inline-block;
-margin-left: 40%;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: var(--azul);
+    margin-top: 5px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 40%;
 }
 
 body{
@@ -40,15 +37,15 @@ body{
 }
 
 .cuerpo{
-width: 100;
-lenght: 35px;
-background-color: var(--azul);
-border-radius: 25px;
-margin-top: 35px;
+    height: 100px;
+    background-color: var(--azul);
+    border-radius: 25px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
 }
 p{
     font-size: 20px;
-    lenght: 30px;
     color: whitesmoke;
 }
 
