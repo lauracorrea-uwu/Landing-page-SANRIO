@@ -10,42 +10,78 @@
 
 
 .cabecera{
-color: whitesmoke;
-border-color: var(--azul);
+    background-color: var(--azul);
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
-img{
-    margin-left: 30px;
-    width: 115px;
+
+.ribbon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: -20%;
+    position: absolute;
+}
+.logo{
+    width: 23%;
+    height: 100%;
+    margin-left: 5%;
 }
 
-h1{
-    font-family: "Rubik Bubbles", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 80px;
-    color: var(--azul);
-    margin-top: 5px;
-    border-radius: 30px;
-    display: inline-block;
-    margin-left: 40%;
-}
 
 body{
    font-family:cursive;
-   background-color: whitesmoke;
+   background-color: rgb(255, 255, 255);
+   max-width: 95%;
 }
 
-.cuerpo{
-    height: 100px;
-    background-color: var(--azul);
-    border-radius: 25px;
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    background-color: #DBF0FF;
+    border-radius: 90px;
     max-width: 90%;
     margin: 0 auto;
+    margin-top: 14px;
     padding: 20px;
 }
-p{
-    font-size: 20px;
-    color: whitesmoke;
+
+.cajamenu1,
+.cajamenu2,
+.cajamenu3,
+.cajamenu4,
+.cajamenu5,
+.cajamenu6 {
+    background-color: white;
+    height: 40px;
+    width: 15%;
+    border-radius: 90px;
+    margin-top: 0;
+    margin-left: 0; 
 }
+.cajamenu1:hover,
+.cajamenu2:hover,
+.cajamenu3:hover,
+.cajamenu4:hover,
+.cajamenu5:hover,
+.cajamenu6:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+.cajamenu1,
+.cajamenu2,
+.cajamenu3,
+.cajamenu4,
+.cajamenu5,
+.cajamenu6 {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Sombra suave */
+}
+
+
 
