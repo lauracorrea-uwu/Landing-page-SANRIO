@@ -11,10 +11,11 @@
 
 .cabecera{
     background-color: var(--azul);
-    min-height: 120px;
+    min-height: 129px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     gap: 40px;
 }
 
@@ -22,9 +23,17 @@
 .ribbon{
     width: 100px;
     height: 100px;
-    display: flex;
-    margin-left: -20%;
     position: absolute;
+    margin-left: -25%;
+    animation: bajarRibbon 2s ease-in-out infinite alternate;
+}
+@keyframes bajarRibbon {
+    from {
+        top: 0;
+    }
+    to {
+        top: 40px;
+    }
 }
 .logo{
     width: 23%;
@@ -82,6 +91,5 @@ body{
 .cajamenu6 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Sombra suave */
 }
-
 
 
