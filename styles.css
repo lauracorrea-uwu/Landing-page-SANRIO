@@ -71,9 +71,16 @@ body{
     height: 40px;
     width: 15%;
     border-radius: 90px;
-    margin-top: 0;
-    margin-left: 0; 
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;                
+    align-items: center;         
+    justify-content: center;      
 }
+
 .cajamenu1:hover,
 .cajamenu2:hover,
 .cajamenu3:hover,
@@ -83,13 +90,52 @@ body{
     background-color: var(--azul);
     cursor: pointer;
 }
+
 .cajamenu1,
 .cajamenu2,
 .cajamenu3,
 .cajamenu4,
 .cajamenu5,
 .cajamenu6 {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Sombra suave */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-
+.cajapersonajes {
+    width: 85%;               
+    margin: 24px auto 0 auto; 
+    background-color: #fff;
+    border-radius: 40px;
+    min-height: 200px;        
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+    background-color: white;
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 13%;
+    height: 180px;
+    margin: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: background 0.3s;
+}
+.cajapersonajes img {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
